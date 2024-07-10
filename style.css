@@ -281,15 +281,14 @@ nav h1{
 
 /*  Inspiration CSS */
 
-.inspiration-content {
+/* .inspiration-content {
     padding: 20px;
-    margin-bottom: 100px;
-}
+}  */
 
 .video-content{
     border: 2px solid black;
     border-radius: 8px;
-    margin: 0px 70px;
+    margin: 0px 90px;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -299,10 +298,96 @@ iframe{
     border-radius: 8px;
 }
 
-.inspiration{
+/* .inspiration{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
         
+} */
+
+/* Current Target CSS */
+
+.current-target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.current-target-content {
+    border-radius: 16px;
+    margin: 0px 90px;
+    display: block;
+
+}
+
+.c-skill-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.skill{
+    margin-top: 15px;
+    padding: 0px 30px;
+    border-radius: 16px;
+}
+
+.skill h4{
+    color: rgb(13, 19, 33);
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-top: 20px;
+}
+
+.skill p{
+    color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: left;
+        opacity: 0.7;
+        margin-top: 15px;
+}
+
+.skill button{
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.skill a{
+    text-decoration-line: underline;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: left;
+        
+}
+
+.skill img{
+    padding-top: 50px;
+}
+
+.html{
+background: rgba(255, 76, 30, 0.05);
+}
+.css{
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+  background: rgba(255, 223, 0, 0.05);
 }
