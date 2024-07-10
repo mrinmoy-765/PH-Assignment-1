@@ -14,6 +14,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+    overflow: hidden;
 }
 
 nav h1{
@@ -93,3 +94,190 @@ nav h1{
         margin-top: 53px;
 }
 
+
+/* Main CSS */
+
+/* Shared Title Style */
+
+.heading{
+    padding-top: 100px;
+}
+ 
+ .title{
+ color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 50px;
+
+
+ }
+
+ .title-des-text{
+    padding: 0px 200px;
+ }
+
+ .title-des{
+    color: rgb(13, 19, 33);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0%;
+        text-align: center;
+        opacity: 0.7;
+        margin-bottom: 50px;
+ }
+
+/* Card Style */
+
+.development {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+.web-content{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+ .card-content h2{
+    color: rgba(13, 19, 33, 0.7);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+ .card-content p{
+        color: rgb(13, 19, 33);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0%;
+            text-align: left;
+            opacity: 0.7;
+            margin-top: 20px;
+}
+
+.card-content  button{
+    width: 171px;
+    height: 47px;
+    margin-top:  30px;
+    box-sizing: border-box;
+        border: 1px solid rgb(13, 19, 33);
+        opacity: 0.7;
+        background: transparent;
+        color: rgb(13, 19, 33);
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0%;
+            text-align: center;
+}
+
+
+ .card-content-second h2 {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-content-second p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.card-content-second button {
+    width: 171px;
+    height: 47px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background: transparent;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 50px 100px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 8px;
+   
+}
+
+.card-bg {
+    background-color: white;
+    background-image: linear-gradient(to right, white 30%, rgba(13, 19, 33, 0.02));
+   
+    
+}
+
+.card-bg-second {
+    background-color: white;
+    background-image: linear-gradient(to left, white 30%, rgba(13, 19, 33, 0.02));
+
+
+}
+
+
+
+.card-content-second {
+    flex: .75;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card-img-second {
+    flex: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+
+.card-content,
+.card-img {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/*  background: linear-gradient(to right, white, rgba(13, 19, 33, 0.02)); */
