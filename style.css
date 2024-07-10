@@ -52,14 +52,16 @@ nav h1{
 }
 
 .banner img{
-    margin-top:100px;
+    margin-top:30px;
     height: 240px;
     width: auto;
 }
 
+
+
 .banner-content h1{
     color: rgb(13, 19, 33);
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 800;
         line-height: 68px;
         letter-spacing: 0%;
@@ -76,12 +78,13 @@ nav h1{
         text-align: center;
         opacity: 0.7;
         margin-top: 24px;
+        margin-bottom: 24px;
 }
 
 .banner-btn{
    
         width: auto;
-        height: 85px;
+        height: 70px;
         padding: 0px 20px;
         border-radius: 8px;
         background: rgb(13, 19, 33);
@@ -91,7 +94,7 @@ nav h1{
         line-height: 23px;
         letter-spacing: 0%;
         text-align: center;
-        margin-top: 53px;
+        margin-bottom: 53px;
 }
 
 
@@ -588,5 +591,6 @@ background: rgba(255, 76, 30, 0.05);
     padding: 20px;
     gap: 450px;
  }
+
 
  
