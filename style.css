@@ -115,10 +115,7 @@ nav h1{
 
  }
 
- .title-des-text{
-    padding: 0px 200px;
- }
-
+ 
  .title-des{
     color: rgb(13, 19, 33);
         font-size: 16px;
@@ -128,6 +125,8 @@ nav h1{
         text-align: center;
         opacity: 0.7;
         margin-bottom: 50px;
+        padding: 0px 200px;
+       
  }
 
 /* Card Style */
@@ -138,13 +137,13 @@ nav h1{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-bottom: 100px;
 }
 
 
 .web-content{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin: 0px 70px;
     
 }
  .card-content h2{
@@ -280,4 +279,30 @@ nav h1{
 }
 
 
-/*  background: linear-gradient(to right, white, rgba(13, 19, 33, 0.02)); */
+/*  Inspiration CSS */
+
+.inspiration-content {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.video-content{
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+iframe{
+    border-radius: 8px;
+}
+
+.inspiration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+        
+}
