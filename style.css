@@ -391,3 +391,80 @@ background: rgba(255, 76, 30, 0.05);
 .js{
   background: rgba(255, 223, 0, 0.05);
 }
+
+
+/* Next Target CSS */
+.next-target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+
+.next-target-content {
+    border-radius: 16px;
+    margin: 0px 90px;
+    display: block;
+
+}
+
+.n-skill {
+    margin-top: 15px;
+    padding: 0px 30px;
+    border-radius: 16px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+
+.n-skill h4 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.n-skill p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+.n-skill button {
+    background: transparent;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.n-skill a {
+    text-decoration-line: underline;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.div1{
+    margin-right: 15px;
+}
+
+.div2{
+    padding: 15px 25px;
+}
